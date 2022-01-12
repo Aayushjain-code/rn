@@ -7,6 +7,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './src/screens/HomeScreen';
 import CounterScreen from './src/screens/CounterScreen';
 import ColorScreen from './src/screens/ColorScreen';
+import SquareScreen from './src/screens/SquareScreen';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Counter" component={CounterScreen} />
         <Stack.Screen name="Colors" component={ColorScreen} />
+        <Stack.Screen name="ColorChanger" component={SquareScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
